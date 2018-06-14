@@ -1,0 +1,7 @@
+<h2><%= @attraction.name %></h2>
+<li> Ticket Req: <%= @attraction.tickets %></li>
+<li> Nausea Rating: <%= @attraction.nausea_rating %></li>
+<li> Happiness Rating: <%= @attraction.happiness_rating %></li>
+<li> Height Req: <%= @attraction.min_height %></li>
+
+<%= button_to "Delete Attraction", @attraction, method: :delete %>
